@@ -3,11 +3,11 @@ package com.example.demo.api.controller.dto;
 import com.example.demo.domain.Gender;
 import com.example.demo.domain.Job;
 import com.example.demo.service.dto.UnitCreateDto;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Getter

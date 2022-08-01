@@ -176,7 +176,7 @@ public interface ApiDocumentUtils {
 
 ### test/**/PersonDocumentationTests 
 ```java
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @WebMvcTest(PersonController.class)
 @AutoConfigureRestDocs(uriScheme = "https", uriHost = "docs.api.com") // (1)
 public class PersonDocumentationTests {
@@ -409,7 +409,7 @@ public interface DocumentFormatGenerator {
 ## 5-3. 입력해야하는 코드 표기
 ### test/**/CommonDocumentationTests 
 ```java
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @WebMvcTest(EnumViewController.class)
 @AutoConfigureRestDocs
 public class CommonDocumentationTests {

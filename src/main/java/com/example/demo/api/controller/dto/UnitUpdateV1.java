@@ -4,7 +4,7 @@ import com.example.demo.domain.Job;
 import com.example.demo.service.dto.UnitUpdateDto;
 import lombok.Getter;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 @Getter
 public class UnitUpdateV1 {

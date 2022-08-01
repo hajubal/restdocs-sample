@@ -1,7 +1,7 @@
 package com.example.demo.api.controller.document;
 
 import com.example.demo.ApiDocumentationTest;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;
 
